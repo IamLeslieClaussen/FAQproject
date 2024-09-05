@@ -45,5 +45,31 @@ overflow-wrap: break-word;
     --clr-ntrl-900: hsl(234, 12%, 34%);
 }
 
+body {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: var(--ff-sans);
+    color: darkgray;
+    overflow: hidden;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    border-radius: 16px;
+    font-size: 1rem;
+    padding: 40px;
+    box-shadow: 4px 5px 17px -6px #000000;
+}
+
+
+
 @media (min-width: 768px){}
 @media (min-width: 1440px){}
