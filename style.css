@@ -69,6 +69,45 @@ body {
     box-shadow: 4px 5px 17px -6px #000000;
 }
 
+.container__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    h1 {
+        font-size: 3rem;
+        margin-left: 20px;
+        color: black;
+    }
+}
+
+.faq__element {
+    .faq__element__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-size: 1.1rem;
+            margin-block: 2rem;
+            color: black;
+        }
+    }
+}
+
+.faq__answer {
+    display: none;
+}
+
+.faq__answer.active {
+    display: block;
+}
+
+
+
+
 
 
 @media (min-width: 768px){}
