@@ -97,6 +97,14 @@ body {
     }
 }
 
+.faq__element__header h2:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+
+
+
 .faq__answer {
     display: none;
 }
