@@ -104,6 +104,8 @@ body {
 
 .faq__answer.active {
     display: block;
+    opacity: 1;
+    height: auto;
 }
 
 .faq__answer {
