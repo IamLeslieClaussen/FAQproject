@@ -102,16 +102,16 @@ body {
     cursor: pointer;
 }
 
-
-
+.faq__answer.active {
+    display: block;
+}
 
 .faq__answer {
     display: none;
 }
 
-.faq__answer.active {
-    display: block;
-}
+
+
 
 
 
